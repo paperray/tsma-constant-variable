@@ -20,11 +20,68 @@ define('DIR_READ_MODE', 0755);
 define('DIR_WRITE_MODE', 0777);
 
 /* CDN Constant Variable */
-define('CDN_IMAGE_BASE_URL', 'http://cdn.teamskeetimages.com');
-define('CDN_STREAMING_URL', 'http://cdn.teamskeetimages.com');
+
+/*
+|--------------------------------------------------------------------------
+| Base URL for streaming
+|--------------------------------------------------------------------------
+|
+| url on which all the video streaming should be pointing into
+| WITH a trailing slash:
+|
+*/
+define('CDN_STREAMING_URL', 'rtmp://ded3744.ded.reflected.net/c3840/_definst_/');
+
+/*
+|--------------------------------------------------------------------------
+| Download Base URL
+|--------------------------------------------------------------------------
+|
+| url on which all file downloads should be pointing into
+| WITH a trailing slash:
+|
+*/
 define('CDN_DOWNLOAD_BASE_URL', 'http://cdn.download.teamskeet.com/');
+
+/*
+|--------------------------------------------------------------------------
+| Images Base URL
+|--------------------------------------------------------------------------
+|
+| url on which all images should be pointing into
+| WITH a trailing slash:
+|
+*/
+define('CDN_IMAGE_BASE_URL', 'http://cdn.teamskeetimages.com');
+
+/*
+|--------------------------------------------------------------------------
+| Token ValidFor
+|--------------------------------------------------------------------------
+|
+| used in downloads links, controls how long a token is valid
+|
+*/
 define('CDN_TOKEN_VALIDATOR', 1800);
+
+/*
+|--------------------------------------------------------------------------
+| Download Token
+|--------------------------------------------------------------------------
+|
+| used in downloads links, used in encrypting the hash value of the download links
+|
+*/
 define('CDN_HASH_SECRET', 't6wPSQ9RszLNa1S0yLkhTdj2CJNZSl');
+
+/*
+|--------------------------------------------------------------------------
+| Download Property Name
+|--------------------------------------------------------------------------
+|
+| identifier of the download url in the CDN, used in encrypting the download links
+|
+*/
 define('CDN_DL_PROPERTY_NAME', 'cdn.download.teamskeet.com');
 
 
