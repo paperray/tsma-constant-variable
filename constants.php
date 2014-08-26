@@ -52,7 +52,7 @@ define('CDN_DOWNLOAD_BASE_URL', 'http://cdn.download.teamskeet.com/');
 | WITH a trailing slash:
 |
 */
-define('CDN_IMAGE_BASE_URL', 'http://cdn.teamskeetimages.com');
+define('CDN_IMAGE_BASE_URL', 'http://cdn.teamskeetimages.com/');
 
 /*
 |--------------------------------------------------------------------------
