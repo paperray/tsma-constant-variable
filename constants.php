@@ -72,7 +72,7 @@ define('CDN_TOKEN_VALIDATOR', 1800);
 | used in downloads links, used in encrypting the hash value of the download links
 |
 */
-define('CDN_HASH_SECRET', 't6wPSQ9RszLNa1S0yLkhTdj2CJNZSl');
+define('CDN_HASH_SECRET', 'secret');
 
 /*
 |--------------------------------------------------------------------------
