@@ -84,7 +84,15 @@ define('CDN_HASH_SECRET', 't6wPSQ9RszLNa1S0yLkhTdj2CJNZSl');
 */
 define('CDN_DL_PROPERTY_NAME', 'cdn.download.teamskeet.com');
 
-
+/*
+|--------------------------------------------------------------------------
+| Trailer Property Name
+|--------------------------------------------------------------------------
+|
+| identifier of the trailer url in the CDN, used in encrypting the trailer links
+|
+*/
+define('CDN_TRAILERS_PROPERTY_NAME', 'cdn.trailers.teamskeet.com');
 /*
 |--------------------------------------------------------------------------
 | File Stream Modes
