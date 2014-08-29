@@ -30,7 +30,7 @@ define('DIR_WRITE_MODE', 0777);
 | WITH a trailing slash:
 |
 */
-define('CDN_STREAMING_URL', 'rtmp://ded3744.ded.reflected.net/c3840/_definst_/');
+define('CDN_STREAMING_URL', 'rtmp://cdn.members.teamskeet.com/membersteamskeet/');
 
 /*
 |--------------------------------------------------------------------------
@@ -93,6 +93,17 @@ define('CDN_DL_PROPERTY_NAME', 'cdn.download.teamskeet.com');
 |
 */
 define('CDN_TRAILERS_PROPERTY_NAME', 'cdn.trailers.teamskeet.com');
+
+/*
+|--------------------------------------------------------------------------
+| For Streaming Trailers
+|--------------------------------------------------------------------------
+|
+| url on which all the trailer tour video streaming should be pointing into
+|
+*/
+define('CDN_TOUR_STREAMING_URL', 'rtmp://cdn.tours.teamskeet.com/toursteamskeet/');
+
 /*
 |--------------------------------------------------------------------------
 | File Stream Modes
